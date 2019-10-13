@@ -1,9 +1,6 @@
 import { Component } from '@angular/core';
 import { faBitcoin, faEthereum } from '@fortawesome/free-brands-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
-
-
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

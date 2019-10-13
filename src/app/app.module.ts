@@ -10,8 +10,6 @@ import {MatListModule} from '@angular/material';
 import { HttpClientModule } from "@angular/common/http";
 import { AngularSvgIconModule } from 'angular-svg-icon';
 
-
-
 @NgModule({
   declarations: [
     AppComponent
@@ -27,7 +25,7 @@ import { AngularSvgIconModule } from 'angular-svg-icon';
       FormsModule,
       HttpClientModule,
       ReactiveFormsModule,
-      FontAwesomeModule
+      FontAwesomeModule, 
   ],
   providers: [],
   bootstrap: [AppComponent]
