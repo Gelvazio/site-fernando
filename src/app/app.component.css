@@ -1,0 +1,15 @@
+.tp-card {
+    max-width: 600px;
+    
+ }
+ mat-card{
+    margin: auto;
+  }
+  .outline {
+   border-style: solid;
+   border-width: medium;
+   border-color: red;
+}
+.tp-card mat-elevation-z0{
+   margin-bottom: 10px;
+}
