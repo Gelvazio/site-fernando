@@ -27,6 +27,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.11.2",
     "angular-svg-icon": "^8.0.0",
     "bootstrap": "^4.3.1",
+    "ccxt": "^1.18.1261",
     "core-js": "^2.5.4",
     "crypto-icons": "^1.0.50",
     "rxjs": "~6.5.3",

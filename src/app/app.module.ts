@@ -9,6 +9,10 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import {MatListModule} from '@angular/material';
 import { HttpClientModule } from "@angular/common/http";
 import { AngularSvgIconModule } from 'angular-svg-icon';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatInputModule} from '@angular/material/input';
+
+
 
 @NgModule({
   declarations: [
@@ -20,8 +24,10 @@ import { AngularSvgIconModule } from 'angular-svg-icon';
     AngularSvgIconModule,
     MatCardModule, 
     MatButtonModule,
+    MatToolbarModule,
     MatIconModule,
     MatListModule,
+    MatInputModule,
       FormsModule,
       HttpClientModule,
       ReactiveFormsModule,
