@@ -11,6 +11,7 @@ import { HttpClientModule } from "@angular/common/http";
 import { AngularSvgIconModule } from 'angular-svg-icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 
 
@@ -28,6 +29,7 @@ import {MatInputModule} from '@angular/material/input';
     MatIconModule,
     MatListModule,
     MatInputModule,
+    MatFormFieldModule,
       FormsModule,
       HttpClientModule,
       ReactiveFormsModule,
