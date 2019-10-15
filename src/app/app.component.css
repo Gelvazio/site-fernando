@@ -4,12 +4,12 @@
  }
  .test-card{
    width: 400px;
-   margin: 0px auto;
-  align-content: center;
+   margin: 10px auto;
  }
  
  .main-div{
    height: 100vh;
+   justify-content: space-around;
    align-items: center;
  }
   .outline {
