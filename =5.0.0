@@ -1,0 +1,4 @@
++ @angular/compiler-cli@8.2.11
+updated 1 package and audited 43257 packages in 20.346s
+found 6 high severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details

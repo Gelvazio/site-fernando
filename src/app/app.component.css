@@ -1,0 +1,19 @@
+.tp-card {
+    max-width: 400px;
+    margin: auto;
+}
+  .outline {
+   border-style: solid;
+   border-width: medium;
+   border-color: red;
+  }
+ 
+  html,
+body {
+  height: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
