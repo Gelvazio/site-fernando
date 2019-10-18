@@ -2,16 +2,27 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+<<<<<<< HEAD
     "downlevelIteration": true,
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
     "module": "esnext",
+=======
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "module": "es2015",
+>>>>>>> 0b38a604ab18bd0e5e9272bcc495983358c9fa1f
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "importHelpers": true,
+<<<<<<< HEAD
     "target": "es2015",
+=======
+    "target": "es5",
+>>>>>>> 0b38a604ab18bd0e5e9272bcc495983358c9fa1f
     "typeRoots": [
       "node_modules/@types"
     ],
