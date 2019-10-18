@@ -17,3 +17,11 @@ body {
   margin-bottom: 0;
 
 }
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+
+}
