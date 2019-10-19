@@ -1,3 +1,4 @@
+import { cripto } from 'src/app/models/cripto.model';
 import { ApiService } from './../../services/api.service';
 import { Component, OnInit } from '@angular/core';
 import { Criptos } from 'src/app/models/placeholder.model';
@@ -8,9 +9,9 @@ import { Criptos } from 'src/app/models/placeholder.model';
   styleUrls: ['./criptos.component.css']
 })
 export class CriptosComponent implements OnInit {
-  criptos: any;
+  criptomoedas: any;
   error: any;
-
+  
   constructor(private apiService:ApiService ) {
     this.getter();
    }
@@ -21,8 +22,10 @@ getter() {
   this.apiService.getCriptos().subscribe(
     (data: Criptos) => 
     {
-      this.criptos = data;
-      console.log('a variavel q preenchemos',this.criptos);
+    this.criptomoedas = data.name;
+    this.criptomoedas = data.symbol;
+    this.criptomoedas = data.price_brl;
+      console.log('a variavel q preenchemos',this.criptomoedas);
     console.log('o data q recebemos',data);
   
     }, 

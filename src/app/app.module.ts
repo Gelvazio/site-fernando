@@ -16,6 +16,7 @@ import { CriptosComponent } from './components/criptos/criptos.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +36,7 @@ import { CriptosComponent } from './components/criptos/criptos.component';
       FormsModule,
       HttpClientModule,
       ReactiveFormsModule,
-      FontAwesomeModule, 
+      FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
