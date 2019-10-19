@@ -12,12 +12,14 @@ import { AngularSvgIconModule } from 'angular-svg-icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { CriptosComponent } from './components/criptos/criptos.component';
 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CriptosComponent
   ],
   imports: [
     BrowserModule,
